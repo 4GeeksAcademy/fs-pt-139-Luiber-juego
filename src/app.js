@@ -32,8 +32,6 @@ const jugar = (userChoise) => {
 
 }
 
-const args = process.argv.slice(2);
-    const jugada = args[0];
 //correr en la consola
-console.log (jugar(jugada));
+console.log (jugar("rock"));
 
