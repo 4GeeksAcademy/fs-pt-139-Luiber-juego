@@ -20,18 +20,17 @@ const jugar = (userChoise) => {
         return "Haz empatado."; 
     }
     
-    else if (rules[userChoise].includes(computerchoises)){
+    if (rules[userChoise].includes(computerchoises)){
         return "Haz ganado."; 
     }
 
-    else {
-        return "Haz perdido";
-    }
+    return "Haz perdido";
+    
 
     //comparamos la seleccion del usuario contra la del computador
 
 }
 
 //correr en la consola
-console.log (jugar("rock"));
+console.log (jugar("spock"));
 
